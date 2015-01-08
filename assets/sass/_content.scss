@@ -1,0 +1,61 @@
+.content__row {
+  @include grid-row;
+  padding: 2em 0;
+}
+
+.content__primary {
+  p + h2 {
+    margin-top: 1em;
+  }
+}
+
+.content__secondary {
+  margin-top: 1em;
+
+  @media (min-width: $medium-screen) {
+    position: relative;
+    top: -5em;
+    margin-top: 0;
+  }
+
+  @media (min-height: 30em) {
+    top: -6em;
+  }
+
+  .button--primary,
+  .button--secondary {
+    display: block;
+    margin-top: 1.5em;
+    text-align: left;
+
+    &:before {
+      content: "";
+      vertical-align: -0.4em;
+    }
+  }
+
+  .button--primary:before {
+    @extend %social-icon--github;
+  }
+
+  .button--secondary:before {
+    @extend %social-icon--email;
+  }
+}
+
+@media (min-width: $medium-screen) {
+  .content__primary {
+    @include grid-column-two-thirds;
+  }
+
+  .content__secondary {
+    @include grid-column-one-third;
+  }
+
+  .screenshot-wrapper {
+    display: block;
+    border: 5px solid #fff;
+    margin: -5px;
+    line-height: 0; // avoid space under child img
+  }
+}

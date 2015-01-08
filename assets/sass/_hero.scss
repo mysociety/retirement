@@ -1,0 +1,61 @@
+.hero {
+  background-color: #333;
+  background-position: center top;
+  background-repeat: none;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+
+  .whereismyhorse & {
+    background-image: url(../img/hero-whereismyhorse.jpg);
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.topbar {
+  background: rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 0.8em 0 1em;
+
+  p {
+    line-height: 1.4em;
+    @include grid-column;
+  }
+
+  strong {
+    display: block;
+    @media (min-width: $medium-screen) {
+      display: inline;
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.topbar__row,
+.hero__row {
+  @include grid-row;
+}
+
+.hero__intro {
+  padding: 2em 0;
+
+  @media (min-height: 30em) {
+    padding: 3em 0;
+  }
+
+  @media (min-width: $medium-screen){
+    @include grid-column-two-thirds;
+  }
+
+  h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
