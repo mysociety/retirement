@@ -20,10 +20,12 @@ $huge-screen: 65em; // 1040px
 $large-screen: 50em; // 800px
 $medium-screen: 40em; // 640px
 $small-screen: 30em; // 480px
+$tiny-screen: 20em; // 320px
 
 $large-screen-max: $huge-screen - 0.0625em;
 $medium-screen-max: $large-screen - 0.0625em;
 $small-screen-max: $medium-screen - 0.0625em;
+$tiny-screen-max: $small-screen - 0.0625em;
 
 $high-dpi-screen: '-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi';
 
