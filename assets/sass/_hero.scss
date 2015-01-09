@@ -1,13 +1,10 @@
 .hero {
-  background-color: #333;
-  background-position: center top;
-  background-repeat: none;
-  background-size: cover;
+  background-color: $colour_dark_grey;
   color: #fff;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 
   .whereismyhorse & {
-    background-image: url(../img/hero-whereismyhorse.jpg);
+    background-color: #5FAB9F; // matches the screenshot
   }
 
   p:last-child {
