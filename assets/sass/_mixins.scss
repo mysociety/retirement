@@ -27,7 +27,7 @@ $prefixes: ("-webkit-","-moz-", "-o-", "-ms-", "");
   display: inline-block;
   background-image: url('../img/social-sprite.png');
   @media ($high-dpi-screen)  {
-    background-image: url(../img/social-sprite@2.png);
+    background-image: url('../img/social-sprite@2.png');
   }
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -37,12 +37,17 @@ $prefixes: ("-webkit-","-moz-", "-o-", "-ms-", "");
   margin-right: 0.75em;
 }
 
+%social-icon--dark {
+  background-image: url('../img/social-sprite-dark.png');
+  @media ($high-dpi-screen)  {
+    background-image: url('../img/social-dark@2.png');
+  }
+}
+
 %social-icon--github {
-  @extend %social-icon;
   background-position: -25px -50px;
 }
 
 %social-icon--email {
-  @extend %social-icon;
   background-position: 0 -100px;
 }
