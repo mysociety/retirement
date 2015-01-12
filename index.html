@@ -4,7 +4,7 @@ title: WhereIsMyHorse.com
 siteSlug: whereismyhorse
 siteName: WhereIsMyHorse
 siteSummary: The UK’s first crowd-sourced horse locator
-screenshot: whereismyhorse.jpg
+screenshot: whereismyhorse.png
 ---
 
 <div class="hero">
@@ -15,7 +15,7 @@ screenshot: whereismyhorse.jpg
   </div>
   <div class="hero__row">
     <div class="hero__intro">
-      <h1>Looking for WhereIsMyHorse?</h1>
+      <h1>Looking for {{ page.siteName }}?</h1>
       <p>WhereIsMyHorse.com was run by mySociety from 2008 to 2015. During that time, it helped thousands of people to find their horses, through an innovative crowd-sourced platform.</p>
     </div>
   </div>
@@ -31,11 +31,11 @@ screenshot: whereismyhorse.jpg
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
     </div>
     <div class="content__secondary">
-      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-whereismyhorse.png">
-        <img src="{{ site.baseurl }}/assets/img/screenshot-whereismyhorse.png" alt="Screenshot of WhereIsMyHorse.com">
+      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}">
+        <img src="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}" alt="Screenshot of {{ page.siteName }}">
       </a>
-      <a class="button--primary content__secondary__cta" href="https://github.com/mysociety/retirement">View the code on Github</a>
-      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact">Contact us about this site</a>
+      <a class="button--primary content__secondary__cta" href="https://github.com/mysociety/retirement">View the code on GitHub</a>
+      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact/">Contact us about this site</a>
       <a class="button--tertiary content__secondary__cta" href="https://www.mysociety.org/404">Some other link</a>
     </div>
   </div>
