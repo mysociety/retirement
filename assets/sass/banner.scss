@@ -48,15 +48,22 @@ $colour_banner: mix($colour_red, #333, 90%);
 
 .retirement-banner__logo {
   @extend %image-replacement;
-  float: right;
+  display: block;
   width: 93px;
   height: 19px;
+  margin-bottom: 1em;
   background-position: 0 0;
   @include prefix(background-size, 93px 19px);
   background-repeat: no-repeat;
   background-image: url('../img/mysociety-logo-white.png');
+
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
     background-image: url('../img/mysociety-logo-white@2.png');
+  }
+
+  @media (min-width: 480px) {
+    float: right;
+    margin-left: 2em;
   }
 }
 
