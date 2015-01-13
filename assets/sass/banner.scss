@@ -75,6 +75,10 @@
 .retirement-banner--pledgebank {
   // body font size is browser default (16px)
   // header is full width, content is 70em (1120px)
+
+  & + .retirement-replacement-body {
+    border-top: 10px solid #9c7bbd;
+  }
 }
 
 .retirement-banner--hassleme {
