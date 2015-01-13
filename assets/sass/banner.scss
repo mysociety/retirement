@@ -101,6 +101,16 @@ $colour_banner: mix($colour_red, #333, 90%);
   // header is full width, content is 50em (800px)
 }
 
+.retirement-banner--notapathetic {
+  // body font size is 80% of browser default (13px)
+  // header and content are 750px centred
+  margin-bottom: 20px;
+
+  .retirement-banner__inner {
+    max-width: 750px;
+  }
+}
+
 .retirement-replacement-body {
   position: relative;
 }
