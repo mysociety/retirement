@@ -1,6 +1,8 @@
 @import 'variables';
 @import 'mixins';
 
+$colour_banner: mix($colour_red, #333, 90%);
+
 %reset {
   margin: 0;
   padding: 0;
@@ -15,26 +17,27 @@
 
 .retirement-banner {
   @extend %reset;
-  background-color: darken($colour_dark_grey, 20%);
+  background-color: $colour_banner;
   color: #fff;
   font-size: 16px;
   line-height: 1.2em;
   font-family: $body_typeface;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 
   * {
     @extend %reset;
   }
 
   p a, p a:link {
-    color: #fff;
+    margin: 0 0.2em;
+    color: mix($colour_banner, #fff, 20%);
     text-decoration: none;
-    border-bottom: 1px solid mix($colour_dark_grey, $colour_light_grey, 50%);
+    border-bottom: 1px solid mix($colour_banner, #fff, 50%);
   }
 
   p a:hover, p a:focus {
     text-decoration: none;
-    border-bottom-color: $colour_light_grey;
+    color: #fff;
+    border-bottom-color: mix($colour_banner, #fff, 20%);
   }
 }
 
@@ -55,16 +58,6 @@
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
     background-image: url('../img/mysociety-logo-white@2.png');
   }
-}
-
-.retirement-banner__header {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 0.8em;
-}
-
-.retirement-banner__description {
-  color: $colour_light_grey;
 }
 
 .retirement-banner__more,
