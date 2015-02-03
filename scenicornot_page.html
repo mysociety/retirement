@@ -1,0 +1,74 @@
+---
+layout: default
+title: Scenic Or Not
+siteSlug: scenicornot
+siteName: Scenic Or Not
+siteSummary: Rating the beauty of Great Britain, one kilometre at a time
+screenshot: scenicornot.png
+---
+
+<div class="hero">
+  <div class="topbar">
+    <div class="topbar__row">
+      <p><strong>{{ page.siteName }}</strong> {{ page.siteSummary }}</p>
+    </div>
+  </div>
+  <div class="hero__row">
+    <div class="hero__intro">
+      <h1>Looking for {{ page.siteName }}?</h1>
+      <p>ScenicOrNot was a mySociety project running from 2009 to 2015, created
+      with help from our friends at The Dextrous Web. Users were served a
+      series of images from around the country, and invited to rate them on a
+      scale of 1-10.</p>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="content__row">
+    <div class="content__primary">
+
+        <p>The result of this game was a crowd-sourced database, giving an
+        aggregate ‘scenicness’ rating for every square kilometre of Great
+        Britain.</p>
+
+        <p>ScenicOrNot helped to prove the concept of crowd-sourcing, and the
+        idea that, if you make a task compelling enough, people will flock to
+        contribute – a concept now commonly called ‘gamification’. We believe
+        it was, at the time, unprecedented as a piece of crowd-sourced geodata
+        about a whole country.</p>
+
+        <p>The <a href="/faq">data</a> and <a
+            href="/leaderboard">leaderboard</a> are still available for anyone
+        who wants them. They were originally generated primarily for our own
+        project Mapumental, which helps people find places to live based on
+        public transport times and other important considerations, such as the
+        beauty of the surroundings.</p>
+
+        <h2>Why have we closed this site?</h2>
+
+        <p>ScenicOrNot was one of several useful, open source sites conceived
+        and run by mySociety, <a href="https://www.mysociety.org/projects/">many
+            of which</a> continue to flourish. In 2015, with
+        regret, we made the tough decision to turn our focus to running our
+        core sites and providing support to international partners.
+        <a href="https://www.mysociety.org/2015/01/28/goodbye-to-some-old-friends/">Read more</a>
+        </p>
+
+        <h2>Would you like to run ScenicOrNot yourself?</h2>
+        <p>We believe there may still be a need for a site like ScenicOrNot. If
+        you’re at all interested in taking it over and running it, <a
+            href="https://www.mysociety.org/contact/">get in touch</a> and
+        we’ll tell you what’s involved.</p>
+
+    </div>
+
+    <div class="content__secondary">
+      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}">
+        <img src="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}" alt="Screenshot of {{ page.siteName }}">
+      </a>
+      <a class="button--primary content__secondary__cta" href="https://github.com/mysociety/scenicornot">View the code on GitHub</a>
+      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact/">Contact us about this site</a>
+      <a class="button--tertiary content__secondary__cta" href="/faq">Database dump</a>
+    </div>
+  </div>
+</div>
