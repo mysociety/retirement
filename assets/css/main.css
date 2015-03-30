@@ -596,6 +596,10 @@ textarea,
     background-color: #f60; }
   .notapathetic .hero {
     background-color: #099; }
+  .hearfromyourmp .hero {
+    color: #20005c;
+    background-color: #d9ecff;
+    text-shadow: none; }
   .hero p:last-child {
     margin-bottom: 0; }
 
