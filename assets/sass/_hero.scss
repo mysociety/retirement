@@ -7,6 +7,13 @@
   .groupsnearyou & { background-color: #f60; }
   .notapathetic & { background-color: #099; }
   .hearfromyourmp & { color: #20005c; background-color: #d9ecff; text-shadow: none; }
+  .fixmytransport & {
+    background-color: #048fc2;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
 
   p:last-child {
     margin-bottom: 0;

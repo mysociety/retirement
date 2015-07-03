@@ -600,6 +600,11 @@ textarea,
     color: #20005c;
     background-color: #d9ecff;
     text-shadow: none; }
+  .fixmytransport .hero {
+    background-color: #048fc2; }
+    .fixmytransport .hero a {
+      color: #fff;
+      text-decoration: underline; }
   .hero p:last-child {
     margin-bottom: 0; }
 
