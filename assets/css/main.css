@@ -605,6 +605,8 @@ textarea,
     .fixmytransport .hero a {
       color: #fff;
       text-decoration: underline; }
+  .pledgebank .hero {
+    background-color: #9c7bbd; }
   .hero p:last-child {
     margin-bottom: 0; }
 
