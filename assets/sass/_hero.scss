@@ -15,6 +15,7 @@
     }
   }
   .pledgebank & { background-color: #9c7bbd; }
+  .popit & { background-color: #e04b4b; }
 
   p:last-child {
     margin-bottom: 0;
@@ -63,5 +64,15 @@
 
   p {
     font-size: 1.2em;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+    &:hover,
+    &:active,
+    &:focus {
+      color:rgba(255,255,255,0.8);
+    }
   }
 }

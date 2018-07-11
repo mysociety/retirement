@@ -15,20 +15,20 @@
   text-align: left; }
 
 .retirement-banner {
-  background-color: #ce4848;
+  background-color: #cf4949;
   color: #fff;
   font-size: 16px;
   line-height: 1.2em;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
   .retirement-banner p a, .retirement-banner p a:link {
     margin: 0 0.2em;
-    color: #f5dada;
+    color: #f5dbdb;
     text-decoration: none;
-    border-bottom: 1px solid #e6a3a3; }
+    border-bottom: 1px solid #e7a4a4; }
   .retirement-banner p a:hover, .retirement-banner p a:focus {
     text-decoration: none;
     color: #fff;
-    border-bottom-color: #f5dada; }
+    border-bottom-color: #f5dbdb; }
 
 .retirement-banner__inner {
   padding: 1.5em 1em;

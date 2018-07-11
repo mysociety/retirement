@@ -607,6 +607,8 @@ textarea,
       text-decoration: underline; }
   .pledgebank .hero {
     background-color: #9c7bbd; }
+  .popit .hero {
+    background-color: #e04b4b; }
   .hero p:last-child {
     margin-bottom: 0; }
 
@@ -665,6 +667,11 @@ textarea,
     font-weight: bold; }
   .hero__intro p {
     font-size: 1.2em; }
+  .hero__intro a {
+    color: #fff;
+    text-decoration: underline; }
+    .hero__intro a:hover, .hero__intro a:active, .hero__intro a:focus {
+      color: rgba(255, 255, 255, 0.8); }
 
 .content__row {
   margin-left: 1em;
@@ -732,7 +739,9 @@ textarea,
     display: block;
     border: 5px solid #fff;
     margin: -5px;
-    line-height: 0; } }
+    line-height: 0; }
+    .popit .screenshot-wrapper {
+      border: 0; } }
 body {
   background-color: #f3f1eb; }
 

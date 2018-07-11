@@ -1,0 +1,51 @@
+---
+layout: default
+title: PopIt
+siteSlug: popit
+siteName: PopIt
+siteSummary: Create, store and share public lists of politicians
+screenshot: popit.jpg
+---
+
+<div class="hero">
+  <div class="topbar">
+    <div class="topbar__row">
+      <p><strong>{{ page.siteName }}</strong> {{ page.siteSummary }}</p>
+    </div>
+  </div>
+  <div class="hero__row">
+    <div class="hero__intro">
+      <h1>Looking for {{ page.siteName }}?</h1>
+      <p>PopIt was a <a href="https://www.mysociety.org/">mySociety</a> project which made it simple to create public, shareable databases of politicians.</p>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="content__row">
+    <div class="content__primary">
+
+        <p>PopIt was created to address the needs of people running Parliamentary websites and apps. Its goal was to save them time and effort by providing a simple, non-technical means by which to make lists of politicians, and keep them up to date.</p>
+
+        <p>Crucially, PopIt converted this data into a structured format that also made it easy for other programmers — and computers — to use the data for further projects. And it was free for anyone to use: like most mySociety projects it was Open Source.</p>
+
+        <p>Above all, PopIt was an attempt to lower the costs and reduce the effort required for building and maintaining democracy, accountability and civic websites and apps.</p>
+
+        <h2>Why have we closed this site?</h2>
+
+        <p>The PopIt project has been superseded by mySociety’s ongoing work with <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, in which we are helping to set up tools, systems and information that enable and encourage the collection and sharing of structured political data. </p>
+
+        <p>Thanks to Wikidata’s existing worldwide community and widespread usage, we believe that it will more effectively achieve the aims that PopIt was initially developed to take on.</p>
+
+        <p>Wikidata feeds into <a href="http://everypolitician.org/">EveryPolitician</a>, also a mySociety project and part of our ongoing efforts to provide Civic Tech developers with open, shareable data on politicians everywhere in the world. <a href="http://docs.everypolitician.org/">Find out more</a>.</p>
+
+    </div>
+
+    <div class="content__secondary">
+      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}">
+        <img src="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}" alt="Screenshot of {{ page.siteName }}">
+      </a>
+      <a class="button--primary content__secondary__cta" href="https://github.com/mysociety/popit">View the code on GitHub</a>
+      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact/">Contact us about this site</a>
+    </div>
+  </div>
+</div>
