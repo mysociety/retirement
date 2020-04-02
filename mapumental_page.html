@@ -1,0 +1,50 @@
+---
+layout: default
+title: Mapumental
+siteSlug: mapumental
+siteName: Mapumental
+siteSummary: Maps that show time
+screenshot: mapumental.png
+---
+
+<div class="hero">
+  <div class="topbar">
+    <div class="topbar__row">
+      <p><strong>{{ page.siteName }}</strong> {{ page.siteSummary }}</p>
+    </div>
+  </div>
+  <div class="hero__row">
+    <div class="hero__intro">
+      <h1>Looking for {{ page.siteName }}?</h1>
+      <p>Mapumental was a <a href="https://www.mysociety.org/">mySociety</a> project to plot journeys by time, not distance.</p>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="content__row">
+    <div class="content__primary">
+
+        <p>Mapumental showed public transport travel times, from or to a chosen postcode, on a timebanded map. These could be embedded in websites, apps or online tools, or used for internal research purposes.</p>
+
+        <p>Mapumental combined Ordnance Survey postcode data with public transport timetables, and displayed the results using <a href="http://leafletjs.com/">Leaflet</a> on <a href="http://www.openstreetmap.org/">OpenStreetMap</a>.</p>
+
+        <p>The timetable dataset was compiled with information from many sources, including local public transport information from each of the Traveline regions (known as the <a href="http://www.traveline.info/tnds.html">Traveline National Data Set</a>, or TNDS), coach services from the national coach services database (<a href="https://data.gov.uk/dataset/national-coach-services">NCSD</a>) and rail information from the <a href="https://www.raildeliverygroup.com">Rail Delivery Group</a>.</p>
+
+        <p>Mapumental was used for various projects. <a href="https://www.mysociety.org/2012/11/10/mapumental-property-extra-insight-for-househunters/">Mapumental Property</a> helped to find a new home based on how long it would take you to commute to work. Or see how Mapumental helped <a href="https://www.mysociety.org/services/case-study-dolphin-square/">Dolphin Living</a>, a charity whose mission is to find affordable housing for Greater London&rsquo;s workforce.</p>
+        <p>It&rsquo;s been used by the <a href="https://www.mysociety.org/services/case-study-visualising-the-accessibility-of-welsh-schools-by-public-transport/">Welsh Government</a> to understand how accessible their schools are for families who don&rsquo;t own a car. They used our existing dataset of public transport, but the <a href="https://www.mysociety.org/services/case-study-mapping-fire-engine-response-times-for-the-fpa/">Fire Protection Association</a> provided their own data — fire engine response times — to show how quickly a blaze at any given postcode could be attended.</p>
+      
+        <h2>Why have we closed this site?</h2>
+
+        <p>Mapumental was one of several useful social projects conceived and run by mySociety, <a href="https://www.mysociety.org/projects/">many of which</a> continue to flourish. It just wasn't possible to give the necessary time and resources to all of them, so we've made the difficult decision to close Mapumental and focus on running our core sites.</p>
+
+    </div>
+
+    <div class="content__secondary">
+      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}">
+        <img src="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}" alt="Screenshot of {{ page.siteName }}">
+      </a>
+<!--      <a class="button--primary content__secondary__cta" href="https://github.com/mysociety/popit">View the code on GitHub</a> -->
+      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact/">Contact us about this site</a>
+    </div>
+  </div>
+</div>
