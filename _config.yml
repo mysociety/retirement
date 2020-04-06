@@ -1,2 +1,9 @@
 name: retirement
 baseurl:
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      favicon: "/assets/img/favicon.png"
