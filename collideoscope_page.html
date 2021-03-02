@@ -1,0 +1,49 @@
+---
+layout: default
+title: Collideoscope
+siteSlug: collideoscope
+siteName: Collideoscope
+siteSummary: "Making Cycling Safer"
+screenshot: collideoscope.png
+---
+
+<div class="hero">
+  <div class="topbar">
+    <div class="topbar__row">
+      <p><strong>{{ page.siteName }}</strong> {{ page.siteSummary }}</p>
+    </div>
+  </div>
+  <div class="hero__row">
+    <div class="hero__intro">
+      <h1>Looking for {{ page.siteName }}?</h1>
+      <p>Collideoscope was a <a href="https://www.mysociety.org/">mySociety</a> project, underpinned by the <a href="https://fixmystreet.org/">FixMyStreet codebase</a>, that collected data on collisions and near misses, to make cycling safer.</p>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="content__row">
+    <div class="content__primary">
+
+    <p>Collideoscope ran from 2014 to 2021. This website invited users to mark where they had experienced a collision or near miss while cycling on a map, and then used this information, together with police STATS19 data, to build a comprehensive nationwide picture of where accidents happen.</p>
+    <p>Reports were sent off to the relevant council’s highways department, helping build the evidence base around the need for safer streets and answering questions like, “Where do accidents happen?” and “What are the indicators that help predict collisions?” — ultimately informing the decisions that lead to better towns and cities for all.</p>
+    <p>Collideoscope stood as an exemplar of how the FixMyStreet codebase can be turned to serve any project that requires reports to be  sent to a nominated recipient depending on the precise location in which they are made. It also built up a large national database of accident ‘hotspots’ which was available to researchers.</p>
+    <p>This site was made possible thanks to the support of <a href="http://www.itpworld.net/">ITP</a> and <a href="https://www.no-excuses.org.uk/">Merseyside Road Safety Partnership</a>.</p>
+
+    <p>If you have an interest in the data gathered by the site, you can download <a href="/collideoscope-data.csv">a CSV file containing summary information</a>. Note that this does not include the <a href="https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data">STATS19 data</a>, only data collected by Collideoscope directly.</p>
+    
+      <h2>Why have we closed this site?</h2>
+
+      <p>Collideoscope was one of several useful social projects conceived and run by mySociety, <a href="https://www.mysociety.org/projects/">many of which</a> continue to flourish. It just wasn’t possible to give the necessary time and resources to all of them, so we’ve made the difficult decision to close Collideoscope and focus on running our core sites.</p>
+
+    </div>
+
+    <div class="content__secondary">
+      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}">
+        <img src="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}" alt="Screenshot of {{ page.siteName }}">
+      </a>
+      <a class="button--primary content__secondary__cta" href="https://github.com/mysociety/collideoscope">View the code on GitHub</a>
+      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact/">Contact us about this site</a>
+      <a class="button--tertiary content__secondary__cta" href="/collideoscope-data.csv">Download data CSV</a>
+    </div>
+  </div>
+</div>

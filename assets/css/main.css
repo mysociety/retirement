@@ -721,6 +721,9 @@ textarea,
 .gender-balance .hero {
   background-color: #e67e22;
 }
+.collideoscope .hero {
+  background-color: #5D696A;
+}
 .hero p:last-child {
   margin-bottom: 0;
 }
