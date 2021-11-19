@@ -724,6 +724,33 @@ textarea,
 .collideoscope .hero {
   background-color: #5D696A;
 }
+.keepitinthecommunity .hero {
+    background-color:  #F2EADA;
+    color: #2E2D2C;
+}
+
+.keepitinthecommunity .hero a {
+    color: #2E2D2C;
+}
+
+.keepitinthecommunity .hero a:hover {
+    color: #E66450;
+}
+
+.keepitinthecommunity .topbar {
+    background-color: #fdfdfd; /*#FAF5EB;*/
+}
+
+.keepitinthecommunity .hero h1 {
+    color: #7E9E2C;
+}
+
+.keepitinthecommunity .hero strong {
+    color: #7E9E2C;
+}
+
+
+
 .hero p:last-child {
   margin-bottom: 0;
 }
